@@ -3,13 +3,14 @@
   (:use i-am-a-horse-in-the-land-of-booleans
         midje.sweet))
 
+
 (facts "boolean" {:exercise 1
                   :points 1}
-  (boolean "foo") => true
-  (boolean nil) => false
-  (boolean (+ 2 3)) => true
-  (boolean true) => true
-  (boolean false) => false)
+       (boolean "foo") => true
+       (boolean nil) => false
+       (boolean (+ 2 3)) => true
+       (boolean true) => true
+       (boolean false) => false)
 
 (facts "teen?" {:exercise 2
                 :points 1}
